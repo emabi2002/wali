@@ -34,5 +34,4 @@ The site is static and requires no build framework.
 - Publish directory: `public`
 - Forms: Netlify Forms is configured through the quotation form in `public/contact/index.html`
 
-When the `waliae.com.pg` domain is ready, add it under the Netlify site's domain settings without changing the website source.
-
+The production domain is `waliace.com`, connected to the Netlify site through Namecheap DNS.
