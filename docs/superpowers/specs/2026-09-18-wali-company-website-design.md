@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Build a professional public website for WALI Airconditioning and Electricals Limited. The first release will be hosted on Netlify and will later use the planned `waliae.com.pg` domain without requiring a redesign.
+Build a professional public website for WALI Airconditioning and Electricals Limited, hosted on Netlify at `waliace.com`.
 
 The website must help residential, commercial, industrial and government customers understand WALI's services and contact the company. Requesting a quotation and contacting WALI directly by telephone or WhatsApp will have equal prominence.
 
@@ -116,5 +116,4 @@ The website will be complete when:
 - The full site is responsive and keyboard accessible.
 - The production build completes successfully.
 - Internal links and public contact links are verified.
-- The site can be deployed to Netlify and later assigned to `waliae.com.pg` without code changes.
-
+- The site can be deployed to Netlify and assigned to `waliace.com` without code changes.
