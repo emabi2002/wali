@@ -1,0 +1,10 @@
+{
+  "name": "wali-company-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes serve public -l 4173",
+    "test": "node tests/site-check.mjs",
+    "build": "node tests/site-check.mjs"
+  }
+}
