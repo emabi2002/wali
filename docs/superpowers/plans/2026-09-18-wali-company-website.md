@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a complete, responsive five-page WALI Airconditioning and Electricals Limited website that is ready for Netlify deployment and a future `waliae.com.pg` custom domain.
+**Goal:** Build a complete, responsive five-page WALI Airconditioning and Electricals Limited website for Netlify deployment at `waliace.com`.
 
 **Architecture:** Use dependency-free static HTML, one shared CSS design system and one small JavaScript module for mobile navigation and form enhancements. Netlify will serve the public directory and process the quotation form, so no application server or database is required.
 
@@ -16,7 +16,7 @@
 - Provide Home, About, Services, Experience, Contact and not-found pages.
 - Give Request a Quote, Call and WhatsApp equal prominence.
 - Use 7211 5598 for telephone and WhatsApp actions.
-- Use `inquiries@waliae.com.pg` for email actions.
+- Use `inquiries@waliace.com` for email actions.
 - Treat SPAC Services Limited, South Pacific Air Conditioning Limited, PSG Facility Services Limited and RD Tuna Canners Limited as Juain Konena's previous employers, not WALI clients.
 - Do not invent licences, accreditations, completed WALI projects, response guarantees or contract values.
 - Make every route responsive, keyboard accessible and usable without JavaScript except for the mobile-menu enhancement.
@@ -360,4 +360,3 @@ Verify no horizontal overflow, clipped text, broken links or inaccessible contro
 git add public netlify.toml tests package.json
 git commit -m "feat: complete Netlify-ready WALI website"
 ```
-
