@@ -12,7 +12,7 @@ const required = [
   "404.html",
   "assets/styles.css",
   "assets/site.js",
-  "assets/wali-logo.png",
+  "assets/kalibobo-logo.png",
   "favicon.svg"
 ];
 
@@ -25,12 +25,12 @@ for (const token of ["--navy", "--blue", "--orange", "--surface"]) {
 
 const home = await readFile(resolve(root, "index.html"), "utf8");
 for (const value of [
-  "WALI Airconditioning and Electricals Limited",
+  "Kalibobo Airconditioning and Electricals Limited",
   "Request a Quote",
   "tel:+67572115598",
   "wa.me/67572115598",
   'id="services"',
-  'id="why-wali"'
+  'id="why-kalibobo"'
 ]) {
   if (!home.includes(value)) throw new Error(`Homepage missing ${value}`);
 }
@@ -54,7 +54,7 @@ for (const employer of [
   if (!experience.includes(employer)) throw new Error(`Experience page missing ${employer}`);
 }
 if (!experience.includes("previous employers")) {
-  throw new Error("Experience page must distinguish Juain's employment from WALI contracts");
+  throw new Error("Experience page must distinguish Juain's employment from Kalibobo contracts");
 }
 
 const contact = await readFile(resolve(root, "contact/index.html"), "utf8");

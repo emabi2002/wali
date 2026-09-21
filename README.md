@@ -1,6 +1,6 @@
-# WALI Airconditioning and Electricals Limited Website
+# Kalibobo Airconditioning and Electricals Limited Website
 
-Official website source for WALI Airconditioning and Electricals Limited, Port Moresby, Papua New Guinea.
+Official website source for Kalibobo Airconditioning and Electricals Limited, Port Moresby, Papua New Guinea.
 
 ## Website pages
 
